@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="categories.css" />
+        <title>Bon Appétit</title>
+    </head>
+    <body>
+        <div id="popup-container">
+            <div id="popup">
+                <span>Êtes-vous sur de vouloir retourner à l’accueil ?</span>
+                <div id="button-container">
+                    <a class="button" id="leave" href="../index.html">
+                        <button>Retour à l'accueil</button>
+                    </a>
+                    <a class="button" id="stay" href="">
+                        <button>Non, je reste</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div id="menu">
+                <a href="../index.html">
+                    <img
+                        src="../icons/circle-arrow-left.svg"
+                        alt="circle-arrow-left"
+                    />
+                </a>
+                <h1>Catégories</h1>
+                <img id="logo" src="../images/big_logo.png" alt="logo" />
+            </div>
+            <div id="search-bar-container">
+                <div id="search-bar">
+                    <div id="search-zone">
+                        <img src="../icons/search.svg" alt="search" />
+                        <label for="search"></label>
+                        <input
+                            type="text"
+                            id="search"
+                            placeholder="Une recette de..."
+                        />
+                    </div>
+                    <img id="filter" src="../icons/filter.svg" alt="filter" />
+                </div>
+            </div>
+        </header>
+
+        <section id="card-container">
+            <div class="card">
+                <a href="">
+                    <img
+                        src="../images/categories/background1.webp"
+                        alt="background-image"
+                    />
+                    <div class="card-content">
+                        <span>Les entrées</span>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img
+                        src="../images/categories/background2.webp"
+                        alt="background-image"
+                    />
+                    <div class="card-content">
+                        <span>Les plats</span>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img
+                        src="../images/categories/background3.webp"
+                        alt="background-image"
+                    />
+                    <div class="card-content">
+                        <span>Les desserts</span>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img
+                        src="../images/categories/background4.webp"
+                        alt="background-image"
+                    />
+                    <div class="card-content">
+                        <span>Divers</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <span>Bon Appétit</span>
+        </footer>
+    </body>
+    <script src="../popup.js"></script>
+</html>
